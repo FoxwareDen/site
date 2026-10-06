@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ArrowRight, Code2, Globe2, Sparkles } from "lucide-react";
 import TechStacks from "../components/TechStacks";
+import WhatWeDo from "../components/WhatWeDo";
 
 export const Route = createFileRoute("/")({
   component: App,
@@ -46,6 +47,7 @@ function App() {
         </div>
       </section>
       <TechStacks />
+      <WhatWeDo />
     </main>
   );
 }
