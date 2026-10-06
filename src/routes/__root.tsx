@@ -8,7 +8,8 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "TanStack Start Starter" },
+      { name: "description", content: "Foxware-Den builds next-generation web applications, desktop software, and custom solutions." },
+      { title: "Foxware-Den | Software Development Studio" },
     ],
     links: [], // CSS is handled via import
   }),
