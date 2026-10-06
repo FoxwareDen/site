@@ -46,8 +46,8 @@ function App() {
           </div>
         </div>
       </section>
-      <TechStacks />
       <WhatWeDo />
+      <TechStacks />
     </main>
   );
 }
