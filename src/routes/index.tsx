@@ -10,7 +10,7 @@ export const Route = createFileRoute("/")({
 
 function App() {
   return (
-    <main className="overflow-hidden bg-[#fcfcfb] text-slate-950">
+    <main className="overflow-hidden bg-background text-foreground">
       <Hero heroImage="/hero.jpg" />
       <WhatWeDo />
       <TechStacks />
