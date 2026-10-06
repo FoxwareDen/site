@@ -9,8 +9,8 @@ export default function Header() {
       </Link>
 
       <nav className="hidden items-center gap-9 text-sm font-medium text-slate-800 md:flex" aria-label="Main navigation">
-        <a href="#products" className="transition-colors hover:text-violet-600">Products</a>
-        <a href="#about" className="transition-colors hover:text-violet-600">About</a>
+        {/* <a href="/products" className="transition-colors hover:text-violet-600">Products</a> */}
+        <a href="/about" className="transition-colors hover:text-violet-600">About</a>
       </nav>
 
       <div className="flex items-center gap-3 text-slate-900">
